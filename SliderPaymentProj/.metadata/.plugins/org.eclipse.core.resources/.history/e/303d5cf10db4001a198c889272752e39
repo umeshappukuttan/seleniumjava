@@ -1,0 +1,5 @@
+package co.shorttermloan.credit.testcases;
+
+public class TC002_VerifySliderMovementLeft {
+
+}

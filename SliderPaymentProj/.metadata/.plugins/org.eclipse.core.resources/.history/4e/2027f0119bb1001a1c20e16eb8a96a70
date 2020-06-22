@@ -1,0 +1,5 @@
+package co.shorttermloan.credit.api.base;
+
+public class SeleniumBase {
+
+}

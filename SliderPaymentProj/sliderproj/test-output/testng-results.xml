@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="14" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130850" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T02:01:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="130850" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T02:01:00Z">
+      <class name="co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-06-22T02:00:40Z" finished-at="2020-06-22T02:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="report" is-config="true" duration-ms="0" started-at="2020-06-22T02:00:40Z" finished-at="2020-06-22T02:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="beforeMethod" is-config="true" duration-ms="11306" started-at="2020-06-22T02:00:40Z" finished-at="2020-06-22T02:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyWeekendPayDate(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="VerifyWeekendPayDate" duration-ms="3548" started-at="2020-06-22T02:00:52Z" data-provider="fetchData" finished-at="2020-06-22T02:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWeekendPayDate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="afterMethod" is-config="true" duration-ms="5108" started-at="2020-06-22T02:00:55Z" finished-at="2020-06-22T02:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-06-22T02:01:00Z" finished-at="2020-06-22T02:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay -->
+      <class name="co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider">
+        <test-method status="PASS" signature="report()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="report" is-config="true" duration-ms="1" started-at="2020-06-22T02:00:24Z" finished-at="2020-06-22T02:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-22T02:00:24Z" finished-at="2020-06-22T02:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="beforeMethod" is-config="true" duration-ms="11087" started-at="2020-06-22T02:00:24Z" finished-at="2020-06-22T02:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="VerifySliderMove" duration-ms="309" started-at="2020-06-22T02:00:35Z" data-provider="fetchData" finished-at="2020-06-22T02:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="afterMethod" is-config="true" duration-ms="5111" started-at="2020-06-22T02:00:35Z" finished-at="2020-06-22T02:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-06-22T02:00:40Z" finished-at="2020-06-22T02:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider -->
+      <class name="co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="startReport" is-config="true" duration-ms="198" started-at="2020-06-22T01:58:49Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:co.shorttermloan.credit.testcases.TC003_MinMaxLoanAmountOnTheSlider@7d907bac]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:co.shorttermloan.credit.testcases.TC004_VerifyRepaymentDateForWeekendDay@7791a895]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="setUpClass" is-config="true" duration-ms="116" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="report" is-config="true" duration-ms="10" started-at="2020-06-22T01:58:50Z" finished-at="2020-06-22T01:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="beforeMethod" is-config="true" duration-ms="13957" started-at="2020-06-22T01:58:51Z" finished-at="2020-06-22T01:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="VerifySliderMove" duration-ms="506" started-at="2020-06-22T01:59:05Z" data-provider="fetchData" finished-at="2020-06-22T01:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="afterMethod" is-config="true" duration-ms="1318" started-at="2020-06-22T01:59:05Z" finished-at="2020-06-22T01:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="beforeMethod" is-config="true" duration-ms="11711" started-at="2020-06-22T01:59:07Z" finished-at="2020-06-22T01:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="VerifySliderMove" duration-ms="482" started-at="2020-06-22T01:59:18Z" data-provider="fetchData" finished-at="2020-06-22T01:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="afterMethod" is-config="true" duration-ms="5143" started-at="2020-06-22T01:59:19Z" finished-at="2020-06-22T01:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="beforeMethod" is-config="true" duration-ms="11137" started-at="2020-06-22T01:59:24Z" finished-at="2020-06-22T01:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="VerifySliderMove" duration-ms="437" started-at="2020-06-22T01:59:35Z" data-provider="fetchData" finished-at="2020-06-22T01:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="afterMethod" is-config="true" duration-ms="1289" started-at="2020-06-22T01:59:35Z" finished-at="2020-06-22T01:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="tearDownClass" is-config="true" duration-ms="27" started-at="2020-06-22T01:59:37Z" finished-at="2020-06-22T01:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight@369f73a2]" name="stopReport" is-config="true" duration-ms="374" started-at="2020-06-22T02:01:00Z" finished-at="2020-06-22T02:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight -->
+      <class name="co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-06-22T01:59:37Z" finished-at="2020-06-22T01:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="report" is-config="true" duration-ms="1" started-at="2020-06-22T01:59:37Z" finished-at="2020-06-22T01:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="beforeMethod" is-config="true" duration-ms="10970" started-at="2020-06-22T01:59:37Z" finished-at="2020-06-22T01:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="VerifySliderMove" duration-ms="423" started-at="2020-06-22T01:59:48Z" data-provider="fetchData" finished-at="2020-06-22T01:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="afterMethod" is-config="true" duration-ms="5339" started-at="2020-06-22T01:59:48Z" finished-at="2020-06-22T01:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="beforeMethod" is-config="true" duration-ms="11363" started-at="2020-06-22T01:59:54Z" finished-at="2020-06-22T02:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="VerifySliderMove" duration-ms="340" started-at="2020-06-22T02:00:05Z" data-provider="fetchData" finished-at="2020-06-22T02:00:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="afterMethod" is-config="true" duration-ms="1177" started-at="2020-06-22T02:00:05Z" finished-at="2020-06-22T02:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="beforeMethod" is-config="true" duration-ms="11506" started-at="2020-06-22T02:00:07Z" finished-at="2020-06-22T02:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySliderMove(java.lang.String, java.lang.String)[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="VerifySliderMove" duration-ms="362" started-at="2020-06-22T02:00:18Z" data-provider="fetchData" finished-at="2020-06-22T02:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="afterMethod" is-config="true" duration-ms="5136" started-at="2020-06-22T02:00:18Z" finished-at="2020-06-22T02:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft@1f28c152]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-06-22T02:00:24Z" finished-at="2020-06-22T02:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

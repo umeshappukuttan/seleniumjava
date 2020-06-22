@@ -1,0 +1,93 @@
+package co.shorttermloan.credit.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import com.aventstack.extentreports.ExtentTest;
+import co.shorttermloan.credit.testng.api.base.ProjectSpecificMethods;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class ShortTermLoanPage extends ProjectSpecificMethods{
+	
+	public ShortTermLoanPage(RemoteWebDriver driver, ExtentTest node, ExtentTest test){
+		this.driver = driver;
+		this.node = node;
+		this.test = test;
+		PageFactory.initElements(driver,this);
+	}
+	
+	@FindBy(how=How.CLASS_NAME,using="loan-amount__range-slider__input")
+	private WebElement eleSlider;
+
+	@Given("Drag and drop the slider Right")
+	public ShortTermLoanPage draganddropright(String xaxis, String yaxis) throws Exception {
+		int x = Integer.parseInt(xaxis);
+		int y = Integer.parseInt(yaxis);
+		Actions action = new Actions(this.driver);
+		action.dragAndDropBy(eleSlider, x, y).perform();
+		return this;
+	}
+	
+	@Given("Drag and drop the slider Left")
+	public ShortTermLoanPage draganddropleft(String xaxis, String yaxis) throws Exception {
+		int x = Integer.parseInt(xaxis);
+		int y = Integer.parseInt(yaxis);
+		Actions action = new Actions(this.driver);
+		action.dragAndDropBy(eleSlider, x, y).perform();
+		return this;
+	}
+	
+	@Given("Find Max Amount on the Slider")
+	public ShortTermLoanPage findmaxloanamt(String xaxis, String yaxis) throws Exception {
+		int x = Integer.parseInt(xaxis);
+		int y = Integer.parseInt(yaxis);
+		Actions action = new Actions(this.driver);
+		action.dragAndDropBy(eleSlider, x, y).perform();
+		return this;
+	}
+	
+	
+	@Given("Verify Weekend Cannot be Repayment Date")
+	public ShortTermLoanPage weekendNoRepay() throws Exception {
+		String RepaymentDt = getElementText(eleRepaymentdate);
+		System.out.println("The Repayment Date is : " +RepaymentDt );
+		return this;
+	}
+	
+	@FindBy(how=How.XPATH,using="//span[@data-testid='loan-amount-value']")
+	public WebElement eleLoanAmount;
+	public ShortTermLoanPage getLoanAmount(){
+		String LoanAmount = getElementText(eleLoanAmount);
+		System.out.println("The Loan Amount is : " +LoanAmount);
+		return this;
+	}
+	
+	@FindBy(how=How.XPATH,using="//button[text()='28']")
+	public WebElement eleWeekenddate;
+	public ShortTermLoanPage clickWeekEndDt() throws Exception{
+		Thread.sleep(1000);
+		eleWeekenddate.click();
+		return this;
+	}
+	
+	@FindBy(how=How.XPATH,using="(//label[@class='loan-schedule__tab__panel__detail__tag__label'])[1]")
+	public WebElement eleRepaymentdate;
+	public ShortTermLoanPage getRepaymentDate() throws Exception{
+		String RepaymentDate = getElementText(eleRepaymentdate);
+		System.out.println("The Repayment Date is : " +RepaymentDate );
+		Thread.sleep(1000);
+		return this;
+	}
+	
+	
+	
+	
+}

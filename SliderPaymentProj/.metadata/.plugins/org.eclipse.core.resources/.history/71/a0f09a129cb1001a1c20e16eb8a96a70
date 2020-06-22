@@ -1,0 +1,5 @@
+package co.shorttermloan.credit.testng.api.base;
+
+public class ProjectSpecificMethods {
+
+}

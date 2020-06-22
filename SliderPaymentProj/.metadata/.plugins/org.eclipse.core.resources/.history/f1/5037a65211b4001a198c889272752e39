@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="classes">
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="co.shorttermloan.credit.testcases.TC001_VerifySliderMovementRight" />
+			<class name="co.shorttermloan.credit.testcases.TC002_VerifySliderMovementLeft" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

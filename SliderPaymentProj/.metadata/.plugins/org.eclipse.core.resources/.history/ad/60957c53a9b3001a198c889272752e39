@@ -1,0 +1,40 @@
+package co.shorttermloan.credit.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import com.aventstack.extentreports.ExtentTest;
+import co.shorttermloan.credit.testng.api.base.ProjectSpecificMethods;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class ShortTermLoanPage extends ProjectSpecificMethods{
+	
+	public ShortTermLoanPage(RemoteWebDriver driver, ExtentTest node, ExtentTest test){
+		this.driver = driver;
+		this.node = node;
+		this.test = test;
+		PageFactory.initElements(driver,this);
+	}
+	
+	@FindBy(how=How.CLASS_NAME,using="loan-amount__range-slider__input")
+	private WebElement eleSlider;
+
+	
+	
+	@Given("Drag and drop the slider")
+	public ShortTermLoanPage draganddrop() {
+		Actions action = new Actions(this.driver);
+		action.dragAndDropBy(eleSlider, 303, 509).release().build().perform();
+		eleSlider.click();
+		return this;
+	}
+	
+}
